@@ -1,0 +1,10 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <UnityInstallationDir>C:\Program Files\Unity\unity5_5_2f1\Editor\</UnityInstallationDir>
+        <UnityWSASolutionName>test_15_planterium</UnityWSASolutionName>
+        <UnityWSASolutionDir>C:\Users\Yueyuan\Documents\hololens\test_15_planterium\APP\</UnityWSASolutionDir>
+        <UnityWSAPlayerDir>C:\Program Files\Unity\unity5_5_2f1\Editor\Data\PlaybackEngines\MetroSupport\</UnityWSAPlayerDir>
+        <UnityWSAToolsDir>$(UnityWSASolutionDir)Unity\Tools\</UnityWSAToolsDir>
+        <UnityProjectDir>C:\Users\Yueyuan\Documents\hololens\test_15_planterium\</UnityProjectDir>
+    </PropertyGroup>
+</Project>

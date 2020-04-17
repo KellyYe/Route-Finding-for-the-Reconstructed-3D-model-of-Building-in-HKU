@@ -1,0 +1,109 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Yueyuan\\Documents\\hololens\\test_15_planterium\\APP\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Yueyuan\\Documents\\hololens\\test_15_planterium\\APP\\GeneratedProjects\\UWP\\Assembly-CSharp-firstpass\\Assembly-CSharp-firstpass.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Yueyuan\\Documents\\hololens\\test_15_planterium\\APP\\GeneratedProjects\\UWP\\Assembly-CSharp-firstpass\\Assembly-CSharp-firstpass.csproj",
+        "projectName": "Assembly-CSharp-firstpass",
+        "projectPath": "C:\\Users\\Yueyuan\\Documents\\hololens\\test_15_planterium\\APP\\GeneratedProjects\\UWP\\Assembly-CSharp-firstpass\\Assembly-CSharp-firstpass.csproj",
+        "projectJsonPath": "C:\\Users\\Yueyuan\\Documents\\hololens\\test_15_planterium\\APP\\GeneratedProjects\\UWP\\Assembly-CSharp-firstpass\\project.json",
+        "packagesPath": "C:\\Users\\Yueyuan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Yueyuan\\Documents\\hololens\\test_15_planterium\\APP\\GeneratedProjects\\UWP\\Assembly-CSharp-firstpass\\obj\\",
+        "projectStyle": "ProjectJson",
+        "configFilePaths": [
+          "C:\\Users\\Yueyuan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        }
+      },
+      "dependencies": {
+        "Microsoft.NETCore.UniversalWindowsPlatform": "[5.0.0, )"
+      },
+      "frameworks": {
+        "uap10.0.10240": {}
+      },
+      "runtimes": {
+        "win10-arm": {
+          "#import": []
+        },
+        "win10-arm-aot": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
+        },
+        "win10-x64-aot": {
+          "#import": []
+        },
+        "win10-x86": {
+          "#import": []
+        },
+        "win10-x86-aot": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\Yueyuan\\Documents\\hololens\\test_15_planterium\\APP\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Yueyuan\\Documents\\hololens\\test_15_planterium\\APP\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj",
+        "projectName": "Assembly-CSharp",
+        "projectPath": "C:\\Users\\Yueyuan\\Documents\\hololens\\test_15_planterium\\APP\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj",
+        "projectJsonPath": "C:\\Users\\Yueyuan\\Documents\\hololens\\test_15_planterium\\APP\\GeneratedProjects\\UWP\\Assembly-CSharp\\project.json",
+        "packagesPath": "C:\\Users\\Yueyuan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Yueyuan\\Documents\\hololens\\test_15_planterium\\APP\\GeneratedProjects\\UWP\\Assembly-CSharp\\obj\\",
+        "projectStyle": "ProjectJson",
+        "configFilePaths": [
+          "C:\\Users\\Yueyuan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "uap10.0.10240": {
+            "projectReferences": {
+              "C:\\Users\\Yueyuan\\Documents\\hololens\\test_15_planterium\\APP\\GeneratedProjects\\UWP\\Assembly-CSharp-firstpass\\Assembly-CSharp-firstpass.csproj": {
+                "projectPath": "C:\\Users\\Yueyuan\\Documents\\hololens\\test_15_planterium\\APP\\GeneratedProjects\\UWP\\Assembly-CSharp-firstpass\\Assembly-CSharp-firstpass.csproj"
+              }
+            }
+          }
+        }
+      },
+      "dependencies": {
+        "Microsoft.NETCore.UniversalWindowsPlatform": "[5.0.0, )"
+      },
+      "frameworks": {
+        "uap10.0.10240": {}
+      },
+      "runtimes": {
+        "win10-arm": {
+          "#import": []
+        },
+        "win10-arm-aot": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
+        },
+        "win10-x64-aot": {
+          "#import": []
+        },
+        "win10-x86": {
+          "#import": []
+        },
+        "win10-x86-aot": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,721 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-447TBMV</Machine>
+    <WindowsUser>张 越原</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Release|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>c91964a0-758d-49bb-8149-e6ca1ab5c632</PackageIdentityName>
+    <PackageIdentityPublisher>CN=DefaultCompany</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\Yueyuan\Documents\hololens\test_15_planterium\APP\test_15_planterium\obj\x86\Release\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\Users\Yueyuan\Documents\hololens\test_15_planterium\APP\test_15_planterium\bin\x86\Release\AppX</LayoutDir>
+    <RegisteredManifestChecksum>69CEABD04E93F20992EE43957FE2C7B675E773A7CBA2243B3146E737CA97447E</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>test15planterium_1.0.0.0_x86__pzq3xp76mxafg</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>test15planterium_pzq3xp76mxafg!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>test15planterium</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=DefaultCompany</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Yueyuan\Documents\hololens\test_15_planterium\APP\test_15_planterium\bin\x86\Release\Core\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-03-16T08:29:18.470</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\Documents\hololens\test_15_planterium\APP\test_15_planterium\bin\x86\Release\test_15_planterium.exe">
+      <PackagePath>entrypoint\test_15_planterium.exe</PackagePath>
+      <Modified>2020-03-16T08:29:00.325</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\microsoft.applicationinsights\1.0.0\lib\portable-win81+wpa81\Microsoft.ApplicationInsights.dll">
+      <PackagePath>Microsoft.ApplicationInsights.dll</PackagePath>
+      <Modified>2015-06-17T07:46:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\microsoft.applicationinsights.persistencechannel\1.0.0\lib\portable-win81+wpa81\Microsoft.ApplicationInsights.PersistenceChannel.dll">
+      <PackagePath>Microsoft.ApplicationInsights.PersistenceChannel.dll</PackagePath>
+      <Modified>2015-06-17T07:57:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\microsoft.applicationinsights.windowsapps\1.0.0\lib\win81\Microsoft.ApplicationInsights.Extensibility.Windows.dll">
+      <PackagePath>Microsoft.ApplicationInsights.Extensibility.Windows.dll</PackagePath>
+      <Modified>2015-06-17T08:13:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\microsoft.csharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
+      <PackagePath>Microsoft.CSharp.dll</PackagePath>
+      <Modified>2020-03-16T03:21:41.369</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.0\lib\netcore50\System.ComponentModel.DataAnnotations.dll">
+      <PackagePath>System.ComponentModel.DataAnnotations.dll</PackagePath>
+      <Modified>2020-03-16T03:21:39.417</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.0\lib\netcore50\System.Core.dll">
+      <PackagePath>System.Core.dll</PackagePath>
+      <Modified>2020-03-16T03:21:39.426</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.0\lib\netcore50\System.Net.dll">
+      <PackagePath>System.Net.dll</PackagePath>
+      <Modified>2020-03-16T03:21:39.443</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.0\lib\netcore50\System.Numerics.dll">
+      <PackagePath>System.Numerics.dll</PackagePath>
+      <Modified>2020-03-16T03:21:39.447</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.0\lib\netcore50\System.Runtime.Serialization.dll">
+      <PackagePath>System.Runtime.Serialization.dll</PackagePath>
+      <Modified>2020-03-16T03:21:39.457</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.0\lib\netcore50\System.ServiceModel.Web.dll">
+      <PackagePath>System.ServiceModel.Web.dll</PackagePath>
+      <Modified>2020-03-16T03:21:39.471</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.0\lib\netcore50\System.ServiceModel.dll">
+      <PackagePath>System.ServiceModel.dll</PackagePath>
+      <Modified>2020-03-16T03:21:39.467</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.0\lib\netcore50\System.Windows.dll">
+      <PackagePath>System.Windows.dll</PackagePath>
+      <Modified>2020-03-16T03:21:39.474</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.0\lib\netcore50\System.Xml.Linq.dll">
+      <PackagePath>System.Xml.Linq.dll</PackagePath>
+      <Modified>2020-03-16T03:21:39.488</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.0\lib\netcore50\System.Xml.Serialization.dll">
+      <PackagePath>System.Xml.Serialization.dll</PackagePath>
+      <Modified>2020-03-16T03:21:39.504</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.0\lib\netcore50\System.Xml.dll">
+      <PackagePath>System.Xml.dll</PackagePath>
+      <Modified>2020-03-16T03:21:39.482</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.0\lib\netcore50\System.dll">
+      <PackagePath>System.dll</PackagePath>
+      <Modified>2020-03-16T03:21:39.432</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\microsoft.visualbasic\10.0.0\lib\netcore50\Microsoft.VisualBasic.dll">
+      <PackagePath>Microsoft.VisualBasic.dll</PackagePath>
+      <Modified>2020-03-16T03:21:41.445</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\microsoft.win32.primitives\4.0.0\lib\dotnet\Microsoft.Win32.Primitives.dll">
+      <PackagePath>Microsoft.Win32.Primitives.dll</PackagePath>
+      <Modified>2020-03-16T03:21:39.651</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\system.appcontext\4.0.0\lib\netcore50\System.AppContext.dll">
+      <PackagePath>System.AppContext.dll</PackagePath>
+      <Modified>2020-03-16T03:21:40.861</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\system.collections\4.0.10\lib\netcore50\System.Collections.dll">
+      <PackagePath>System.Collections.dll</PackagePath>
+      <Modified>2020-03-16T03:21:40.564</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\system.collections.concurrent\4.0.10\lib\dotnet\System.Collections.Concurrent.dll">
+      <PackagePath>System.Collections.Concurrent.dll</PackagePath>
+      <Modified>2020-03-16T03:21:41.183</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\system.collections.immutable\1.1.37\lib\dotnet\System.Collections.Immutable.dll">
+      <PackagePath>System.Collections.Immutable.dll</PackagePath>
+      <Modified>2020-03-16T03:21:41.430</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\system.collections.nongeneric\4.0.0\lib\dotnet\System.Collections.NonGeneric.dll">
+      <PackagePath>System.Collections.NonGeneric.dll</PackagePath>
+      <Modified>2020-03-16T03:21:39.970</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\system.collections.specialized\4.0.0\lib\dotnet\System.Collections.Specialized.dll">
+      <PackagePath>System.Collections.Specialized.dll</PackagePath>
+      <Modified>2020-03-16T03:21:40.769</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\system.componentmodel\4.0.0\lib\netcore50\System.ComponentModel.dll">
+      <PackagePath>System.ComponentModel.dll</PackagePath>
+      <Modified>2020-03-16T03:21:41.203</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\system.componentmodel.annotations\4.0.10\lib\dotnet\System.ComponentModel.Annotations.dll">
+      <PackagePath>System.ComponentModel.Annotations.dll</PackagePath>
+      <Modified>2020-03-16T03:21:41.100</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\system.componentmodel.eventbasedasync\4.0.10\lib\dotnet\System.ComponentModel.EventBasedAsync.dll">
+      <PackagePath>System.ComponentModel.EventBasedAsync.dll</PackagePath>
+      <Modified>2020-03-16T03:21:39.643</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\system.data.common\4.0.0\lib\dotnet\System.Data.Common.dll">
+      <PackagePath>System.Data.Common.dll</PackagePath>
+      <Modified>2020-03-16T03:21:39.430</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\system.diagnostics.contracts\4.0.0\lib\netcore50\System.Diagnostics.Contracts.dll">
+      <PackagePath>System.Diagnostics.Contracts.dll</PackagePath>
+      <Modified>2020-03-16T03:21:39.401</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\system.diagnostics.debug\4.0.10\lib\netcore50\System.Diagnostics.Debug.dll">
+      <PackagePath>System.Diagnostics.Debug.dll</PackagePath>
+      <Modified>2020-03-16T03:21:40.586</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\system.diagnostics.stacktrace\4.0.0\lib\netcore50\System.Diagnostics.StackTrace.dll">
+      <PackagePath>System.Diagnostics.StackTrace.dll</PackagePath>
+      <Modified>2020-03-16T03:21:39.678</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\system.diagnostics.tools\4.0.0\lib\netcore50\System.Diagnostics.Tools.dll">
+      <PackagePath>System.Diagnostics.Tools.dll</PackagePath>
+      <Modified>2020-03-16T03:21:40.924</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\system.diagnostics.tracing\4.0.20\lib\netcore50\System.Diagnostics.Tracing.dll">
+      <PackagePath>System.Diagnostics.Tracing.dll</PackagePath>
+      <Modified>2020-03-16T03:21:41.385</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\system.dynamic.runtime\4.0.10\lib\netcore50\System.Dynamic.Runtime.dll">
+      <PackagePath>System.Dynamic.Runtime.dll</PackagePath>
+      <Modified>2020-03-16T03:21:41.255</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\system.globalization\4.0.10\lib\netcore50\System.Globalization.dll">
+      <PackagePath>System.Globalization.dll</PackagePath>
+      <Modified>2020-03-16T03:21:39.964</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\system.globalization.calendars\4.0.0\lib\netcore50\System.Globalization.Calendars.dll">
+      <PackagePath>System.Globalization.Calendars.dll</PackagePath>
+      <Modified>2020-03-16T03:21:41.536</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\system.globalization.extensions\4.0.0\lib\dotnet\System.Globalization.Extensions.dll">
+      <PackagePath>System.Globalization.Extensions.dll</PackagePath>
+      <Modified>2020-03-16T03:21:41.284</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\system.io\4.0.10\lib\netcore50\System.IO.dll">
+      <PackagePath>System.IO.dll</PackagePath>
+      <Modified>2020-03-16T03:21:40.597</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\system.io.compression\4.0.0\lib\netcore50\System.IO.Compression.dll">
+      <PackagePath>System.IO.Compression.dll</PackagePath>
+      <Modified>2020-03-16T03:21:41.144</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\system.io.compression.clrcompression-x86\4.0.0\runtimes\win10-x86\native\ClrCompression.dll">
+      <PackagePath>ClrCompression.dll</PackagePath>
+      <Modified>2020-03-16T03:21:44.754</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\system.io.compression.zipfile\4.0.0\lib\dotnet\System.IO.Compression.ZipFile.dll">
+      <PackagePath>System.IO.Compression.ZipFile.dll</PackagePath>
+      <Modified>2020-03-16T03:21:41.279</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\system.io.filesystem\4.0.0\lib\netcore50\System.IO.FileSystem.dll">
+      <PackagePath>System.IO.FileSystem.dll</PackagePath>
+      <Modified>2020-03-16T03:21:40.861</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\system.io.filesystem.primitives\4.0.0\lib\dotnet\System.IO.FileSystem.Primitives.dll">
+      <PackagePath>System.IO.FileSystem.Primitives.dll</PackagePath>
+      <Modified>2020-03-16T03:21:40.743</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\system.io.isolatedstorage\4.0.0\lib\netcore50\System.IO.IsolatedStorage.dll">
+      <PackagePath>System.IO.IsolatedStorage.dll</PackagePath>
+      <Modified>2020-03-16T03:21:39.770</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\system.io.unmanagedmemorystream\4.0.0\lib\dotnet\System.IO.UnmanagedMemoryStream.dll">
+      <PackagePath>System.IO.UnmanagedMemoryStream.dll</PackagePath>
+      <Modified>2020-03-16T03:21:41.101</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\system.linq\4.0.0\lib\netcore50\System.Linq.dll">
+      <PackagePath>System.Linq.dll</PackagePath>
+      <Modified>2020-03-16T03:21:40.841</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\system.linq.expressions\4.0.10\lib\netcore50\System.Linq.Expressions.dll">
+      <PackagePath>System.Linq.Expressions.dll</PackagePath>
+      <Modified>2020-03-16T03:21:41.600</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\system.linq.parallel\4.0.0\lib\netcore50\System.Linq.Parallel.dll">
+      <PackagePath>System.Linq.Parallel.dll</PackagePath>
+      <Modified>2020-03-16T03:21:41.567</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\system.linq.queryable\4.0.0\lib\netcore50\System.Linq.Queryable.dll">
+      <PackagePath>System.Linq.Queryable.dll</PackagePath>
+      <Modified>2020-03-16T03:21:40.855</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\system.net.http\4.0.0\lib\netcore50\System.Net.Http.dll">
+      <PackagePath>System.Net.Http.dll</PackagePath>
+      <Modified>2020-03-16T03:21:40.655</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\system.net.http.rtc\4.0.0\lib\netcore50\System.Net.Http.Rtc.dll">
+      <PackagePath>System.Net.Http.Rtc.dll</PackagePath>
+      <Modified>2020-03-16T03:21:39.723</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\system.net.networkinformation\4.0.0\lib\netcore50\System.Net.NetworkInformation.dll">
+      <PackagePath>System.Net.NetworkInformation.dll</PackagePath>
+      <Modified>2020-03-16T03:21:41.075</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\system.net.primitives\4.0.10\lib\netcore50\System.Net.Primitives.dll">
+      <PackagePath>System.Net.Primitives.dll</PackagePath>
+      <Modified>2020-03-16T03:21:39.429</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\system.net.requests\4.0.10\lib\dotnet\System.Net.Requests.dll">
+      <PackagePath>System.Net.Requests.dll</PackagePath>
+      <Modified>2020-03-16T03:21:39.801</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\system.net.sockets\4.0.0\lib\netcore50\System.Net.Sockets.dll">
+      <PackagePath>System.Net.Sockets.dll</PackagePath>
+      <Modified>2020-03-16T03:21:39.774</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\system.net.webheadercollection\4.0.0\lib\dotnet\System.Net.WebHeaderCollection.dll">
+      <PackagePath>System.Net.WebHeaderCollection.dll</PackagePath>
+      <Modified>2020-03-16T03:21:39.733</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\system.numerics.vectors\4.1.0\lib\dotnet\System.Numerics.Vectors.dll">
+      <PackagePath>System.Numerics.Vectors.dll</PackagePath>
+      <Modified>2020-03-16T03:21:40.541</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\system.numerics.vectors.windowsruntime\4.0.0\lib\dotnet\System.Numerics.Vectors.WindowsRuntime.dll">
+      <PackagePath>System.Numerics.Vectors.WindowsRuntime.dll</PackagePath>
+      <Modified>2020-03-16T03:21:39.630</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\system.objectmodel\4.0.10\lib\dotnet\System.ObjectModel.dll">
+      <PackagePath>System.ObjectModel.dll</PackagePath>
+      <Modified>2020-03-16T03:21:41.296</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\system.private.datacontractserialization\4.0.0\lib\netcore50\System.Private.DataContractSerialization.dll">
+      <PackagePath>System.Private.DataContractSerialization.dll</PackagePath>
+      <Modified>2020-03-16T03:21:39.439</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\system.private.networking\4.0.0\lib\netcore50\System.Private.Networking.dll">
+      <PackagePath>System.Private.Networking.dll</PackagePath>
+      <Modified>2020-03-16T03:21:40.878</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\system.private.servicemodel\4.0.0\lib\netcore50\System.Private.ServiceModel.dll">
+      <PackagePath>System.Private.ServiceModel.dll</PackagePath>
+      <Modified>2020-03-16T03:21:39.499</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\system.private.uri\4.0.0\lib\netcore50\System.Private.Uri.dll">
+      <PackagePath>System.Private.Uri.dll</PackagePath>
+      <Modified>2020-03-16T03:21:39.238</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\system.reflection\4.0.10\lib\netcore50\System.Reflection.dll">
+      <PackagePath>System.Reflection.dll</PackagePath>
+      <Modified>2020-03-16T03:21:40.383</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\system.reflection.context\4.0.0\lib\netcore50\System.Reflection.Context.dll">
+      <PackagePath>System.Reflection.Context.dll</PackagePath>
+      <Modified>2020-03-16T03:21:39.643</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\system.reflection.dispatchproxy\4.0.0\lib\netcore50\System.Reflection.DispatchProxy.dll">
+      <PackagePath>System.Reflection.DispatchProxy.dll</PackagePath>
+      <Modified>2020-03-16T03:21:41.403</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\system.reflection.emit\4.0.0\lib\netcore50\System.Reflection.Emit.dll">
+      <PackagePath>System.Reflection.Emit.dll</PackagePath>
+      <Modified>2020-03-16T03:21:44.801</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\system.reflection.emit.ilgeneration\4.0.0\lib\netcore50\System.Reflection.Emit.ILGeneration.dll">
+      <PackagePath>System.Reflection.Emit.ILGeneration.dll</PackagePath>
+      <Modified>2020-03-16T03:21:44.788</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\system.reflection.emit.lightweight\4.0.0\lib\netcore50\System.Reflection.Emit.Lightweight.dll">
+      <PackagePath>System.Reflection.Emit.Lightweight.dll</PackagePath>
+      <Modified>2020-03-16T03:21:44.786</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\system.reflection.extensions\4.0.0\lib\netcore50\System.Reflection.Extensions.dll">
+      <PackagePath>System.Reflection.Extensions.dll</PackagePath>
+      <Modified>2020-03-16T03:21:41.475</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\system.reflection.metadata\1.0.22\lib\dotnet\System.Reflection.Metadata.dll">
+      <PackagePath>System.Reflection.Metadata.dll</PackagePath>
+      <Modified>2020-03-16T03:21:41.221</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\system.reflection.primitives\4.0.0\lib\netcore50\System.Reflection.Primitives.dll">
+      <PackagePath>System.Reflection.Primitives.dll</PackagePath>
+      <Modified>2020-03-16T03:21:41.418</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\system.reflection.typeextensions\4.0.0\lib\netcore50\System.Reflection.TypeExtensions.dll">
+      <PackagePath>System.Reflection.TypeExtensions.dll</PackagePath>
+      <Modified>2020-03-16T03:21:41.093</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\system.resources.resourcemanager\4.0.0\lib\netcore50\System.Resources.ResourceManager.dll">
+      <PackagePath>System.Resources.ResourceManager.dll</PackagePath>
+      <Modified>2020-03-16T03:21:39.971</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\system.runtime\4.0.20\lib\netcore50\System.Runtime.dll">
+      <PackagePath>System.Runtime.dll</PackagePath>
+      <Modified>2020-03-16T03:21:40.746</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\system.runtime.extensions\4.0.10\lib\netcore50\System.Runtime.Extensions.dll">
+      <PackagePath>System.Runtime.Extensions.dll</PackagePath>
+      <Modified>2020-03-16T03:21:40.074</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\system.runtime.handles\4.0.0\lib\netcore50\System.Runtime.Handles.dll">
+      <PackagePath>System.Runtime.Handles.dll</PackagePath>
+      <Modified>2020-03-16T03:21:40.399</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\system.runtime.interopservices\4.0.20\lib\netcore50\System.Runtime.InteropServices.dll">
+      <PackagePath>System.Runtime.InteropServices.dll</PackagePath>
+      <Modified>2020-03-16T03:21:40.724</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\system.runtime.interopservices.windowsruntime\4.0.0\lib\netcore50\System.Runtime.InteropServices.WindowsRuntime.dll">
+      <PackagePath>System.Runtime.InteropServices.WindowsRuntime.dll</PackagePath>
+      <Modified>2020-03-16T03:21:39.349</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\system.runtime.numerics\4.0.0\lib\netcore50\System.Runtime.Numerics.dll">
+      <PackagePath>System.Runtime.Numerics.dll</PackagePath>
+      <Modified>2020-03-16T03:21:41.550</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\system.runtime.serialization.json\4.0.0\lib\netcore50\System.Runtime.Serialization.Json.dll">
+      <PackagePath>System.Runtime.Serialization.Json.dll</PackagePath>
+      <Modified>2020-03-16T03:21:39.921</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\system.runtime.serialization.primitives\4.0.10\lib\dotnet\System.Runtime.Serialization.Primitives.dll">
+      <PackagePath>System.Runtime.Serialization.Primitives.dll</PackagePath>
+      <Modified>2020-03-16T03:21:39.657</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\system.runtime.serialization.xml\4.0.10\lib\netcore50\System.Runtime.Serialization.Xml.dll">
+      <PackagePath>System.Runtime.Serialization.Xml.dll</PackagePath>
+      <Modified>2020-03-16T03:21:39.925</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\system.runtime.windowsruntime\4.0.10\lib\netcore50\System.Runtime.WindowsRuntime.dll">
+      <PackagePath>System.Runtime.WindowsRuntime.dll</PackagePath>
+      <Modified>2020-03-16T03:21:39.790</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\system.runtime.windowsruntime.ui.xaml\4.0.0\lib\netcore50\System.Runtime.WindowsRuntime.UI.Xaml.dll">
+      <PackagePath>System.Runtime.WindowsRuntime.UI.Xaml.dll</PackagePath>
+      <Modified>2020-03-16T03:21:39.740</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\system.security.claims\4.0.0\lib\dotnet\System.Security.Claims.dll">
+      <PackagePath>System.Security.Claims.dll</PackagePath>
+      <Modified>2020-03-16T03:21:41.521</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\system.security.principal\4.0.0\lib\netcore50\System.Security.Principal.dll">
+      <PackagePath>System.Security.Principal.dll</PackagePath>
+      <Modified>2020-03-16T03:21:41.313</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\system.servicemodel.duplex\4.0.0\lib\netcore50\System.ServiceModel.Duplex.dll">
+      <PackagePath>System.ServiceModel.Duplex.dll</PackagePath>
+      <Modified>2020-03-16T03:21:39.864</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\system.servicemodel.http\4.0.10\lib\netcore50\System.ServiceModel.Http.dll">
+      <PackagePath>System.ServiceModel.Http.dll</PackagePath>
+      <Modified>2020-03-16T03:21:39.815</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\system.servicemodel.nettcp\4.0.0\lib\netcore50\System.ServiceModel.NetTcp.dll">
+      <PackagePath>System.ServiceModel.NetTcp.dll</PackagePath>
+      <Modified>2020-03-16T03:21:39.821</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\system.servicemodel.primitives\4.0.0\lib\netcore50\System.ServiceModel.Primitives.dll">
+      <PackagePath>System.ServiceModel.Primitives.dll</PackagePath>
+      <Modified>2020-03-16T03:21:40.389</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\system.servicemodel.security\4.0.0\lib\netcore50\System.ServiceModel.Security.dll">
+      <PackagePath>System.ServiceModel.Security.dll</PackagePath>
+      <Modified>2020-03-16T03:21:39.866</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\system.text.encoding\4.0.10\lib\netcore50\System.Text.Encoding.dll">
+      <PackagePath>System.Text.Encoding.dll</PackagePath>
+      <Modified>2020-03-16T03:21:40.578</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\system.text.encoding.codepages\4.0.0\lib\dotnet\System.Text.Encoding.CodePages.dll">
+      <PackagePath>System.Text.Encoding.CodePages.dll</PackagePath>
+      <Modified>2020-03-16T03:21:39.971</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\system.text.encoding.extensions\4.0.10\lib\netcore50\System.Text.Encoding.Extensions.dll">
+      <PackagePath>System.Text.Encoding.Extensions.dll</PackagePath>
+      <Modified>2020-03-16T03:21:41.090</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\system.text.regularexpressions\4.0.10\lib\dotnet\System.Text.RegularExpressions.dll">
+      <PackagePath>System.Text.RegularExpressions.dll</PackagePath>
+      <Modified>2020-03-16T03:21:41.267</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\system.threading\4.0.10\lib\netcore50\System.Threading.dll">
+      <PackagePath>System.Threading.dll</PackagePath>
+      <Modified>2020-03-16T03:21:40.428</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\system.threading.overlapped\4.0.0\lib\netcore50\System.Threading.Overlapped.dll">
+      <PackagePath>System.Threading.Overlapped.dll</PackagePath>
+      <Modified>2020-03-16T03:21:39.225</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\system.threading.tasks\4.0.10\lib\netcore50\System.Threading.Tasks.dll">
+      <PackagePath>System.Threading.Tasks.dll</PackagePath>
+      <Modified>2020-03-16T03:21:40.388</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\system.threading.tasks.dataflow\4.5.25\lib\dotnet\System.Threading.Tasks.Dataflow.dll">
+      <PackagePath>System.Threading.Tasks.Dataflow.dll</PackagePath>
+      <Modified>2020-03-16T03:21:41.559</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\system.threading.tasks.parallel\4.0.0\lib\netcore50\System.Threading.Tasks.Parallel.dll">
+      <PackagePath>System.Threading.Tasks.Parallel.dll</PackagePath>
+      <Modified>2020-03-16T03:21:41.447</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\system.threading.timer\4.0.0\lib\netcore50\System.Threading.Timer.dll">
+      <PackagePath>System.Threading.Timer.dll</PackagePath>
+      <Modified>2020-03-16T03:21:41.313</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\system.xml.readerwriter\4.0.10\lib\dotnet\System.Xml.ReaderWriter.dll">
+      <PackagePath>System.Xml.ReaderWriter.dll</PackagePath>
+      <Modified>2020-03-16T03:21:39.956</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\system.xml.xdocument\4.0.10\lib\dotnet\System.Xml.XDocument.dll">
+      <PackagePath>System.Xml.XDocument.dll</PackagePath>
+      <Modified>2020-03-16T03:21:41.125</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\system.xml.xmldocument\4.0.0\lib\dotnet\System.Xml.XmlDocument.dll">
+      <PackagePath>System.Xml.XmlDocument.dll</PackagePath>
+      <Modified>2020-03-16T03:21:39.387</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\.nuget\packages\system.xml.xmlserializer\4.0.10\lib\netcore50\System.Xml.XmlSerializer.dll">
+      <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
+      <Modified>2020-03-16T03:21:40.059</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files\Unity\unity5_5_2f1\Editor\Data\PlaybackEngines\MetroSupport\Players\UAP\dotnet\x86\Release\UnityEngineProxy.dll">
+      <PackagePath>UnityEngineProxy.dll</PackagePath>
+      <Modified>2017-02-22T12:56:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\Documents\hololens\test_15_planterium\APP\test_15_planterium\Unprocessed\WinRTLegacy.dll">
+      <PackagePath>WinRTLegacy.dll</PackagePath>
+      <Modified>2017-02-22T10:58:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files\Unity\unity5_5_2f1\Editor\Data\PlaybackEngines\MetroSupport\Players\UAP\dotnet\x86\Release\UnityPlayer.dll">
+      <PackagePath>UnityPlayer.dll</PackagePath>
+      <Modified>2017-02-22T13:06:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files\Unity\unity5_5_2f1\Editor\Data\PlaybackEngines\MetroSupport\Players\UAP\dotnet\x86\Release\BridgeInterface.dll">
+      <PackagePath>BridgeInterface.dll</PackagePath>
+      <Modified>2017-02-22T12:56:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files\Unity\unity5_5_2f1\Editor\Data\PlaybackEngines\MetroSupport\Players\UAP\dotnet\x86\Release\UnityEngineDelegates.dll">
+      <PackagePath>UnityEngineDelegates.dll</PackagePath>
+      <Modified>2017-02-22T12:56:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files\Unity\unity5_5_2f1\Editor\Data\PlaybackEngines\MetroSupport\Players\UAP\dotnet\x86\Release\BridgeInterface.winmd">
+      <PackagePath>BridgeInterface.winmd</PackagePath>
+      <Modified>2017-02-22T12:56:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files\Unity\unity5_5_2f1\Editor\Data\PlaybackEngines\MetroSupport\Players\UAP\dotnet\x86\Release\UnityEngineDelegates.winmd">
+      <PackagePath>UnityEngineDelegates.winmd</PackagePath>
+      <Modified>2017-02-22T12:56:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files\Unity\unity5_5_2f1\Editor\Data\PlaybackEngines\MetroSupport\Players\UAP\dotnet\x86\Release\UnityPlayer.winmd">
+      <PackagePath>UnityPlayer.winmd</PackagePath>
+      <Modified>2017-02-22T13:06:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files\Unity\unity5_5_2f1\Editor\Data\PlaybackEngines\MetroSupport\Players\UAP\dotnet\x86\Release\WinRTBridge.winmd">
+      <PackagePath>WinRTBridge.winmd</PackagePath>
+      <Modified>2017-02-22T12:56:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\Documents\hololens\test_15_planterium\APP\test_15_planterium\Resource.res">
+      <PackagePath>Resource.res</PackagePath>
+      <Modified>2020-03-16T04:50:56.669</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\Documents\hololens\test_15_planterium\APP\test_15_planterium\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-02-21T13:15:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\Documents\hololens\test_15_planterium\APP\test_15_planterium\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-02-22T10:49:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\Documents\hololens\test_15_planterium\APP\test_15_planterium\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-02-22T10:40:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\Documents\hololens\test_15_planterium\APP\test_15_planterium\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-02-22T10:48:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\Documents\hololens\test_15_planterium\APP\test_15_planterium\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-02-22T10:48:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\Documents\hololens\test_15_planterium\APP\test_15_planterium\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-02-22T10:43:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\Documents\hololens\test_15_planterium\APP\test_15_planterium\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2017-02-14T08:08:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\Documents\hololens\test_15_planterium\APP\test_15_planterium\PlaneFinding.dll">
+      <PackagePath>PlaneFinding.dll</PackagePath>
+      <Modified>2016-05-05T20:08:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\Documents\hololens\test_15_planterium\APP\test_15_planterium\Data\globalgamemanagers">
+      <PackagePath>Data\globalgamemanagers</PackagePath>
+      <Modified>2020-03-16T04:50:32.410</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\Documents\hololens\test_15_planterium\APP\test_15_planterium\Data\level0">
+      <PackagePath>Data\level0</PackagePath>
+      <Modified>2020-03-16T04:50:31.283</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\Documents\hololens\test_15_planterium\APP\test_15_planterium\Data\Resources\unity default resources">
+      <PackagePath>Data\Resources\unity default resources</PackagePath>
+      <Modified>2017-02-22T10:50:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\Documents\hololens\test_15_planterium\APP\test_15_planterium\Data\Resources\unity_builtin_extra">
+      <PackagePath>Data\Resources\unity_builtin_extra</PackagePath>
+      <Modified>2020-03-16T04:50:36.370</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\Documents\hololens\test_15_planterium\APP\test_15_planterium\Data\globalgamemanagers.assets">
+      <PackagePath>Data\globalgamemanagers.assets</PackagePath>
+      <Modified>2020-03-16T04:50:32.827</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\Documents\hololens\test_15_planterium\APP\test_15_planterium\Data\sharedassets0.assets">
+      <PackagePath>Data\sharedassets0.assets</PackagePath>
+      <Modified>2020-03-16T04:50:33.084</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\Documents\hololens\test_15_planterium\APP\test_15_planterium\Data\level0.resS">
+      <PackagePath>Data\level0.resS</PackagePath>
+      <Modified>2020-03-16T04:50:31.275</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\Documents\hololens\test_15_planterium\APP\test_15_planterium\Data\sharedassets0.assets.resS">
+      <PackagePath>Data\sharedassets0.assets.resS</PackagePath>
+      <Modified>2020-03-16T04:50:33.078</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\Documents\hololens\test_15_planterium\APP\test_15_planterium\Data\managedAssemblies.txt">
+      <PackagePath>Data\managedAssemblies.txt</PackagePath>
+      <Modified>2020-03-16T04:50:56.533</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\Documents\hololens\test_15_planterium\APP\test_15_planterium\Data\nativePlugins.txt">
+      <PackagePath>Data\nativePlugins.txt</PackagePath>
+      <Modified>2020-03-16T04:50:56.544</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
+      <PackagePath>WinMetadata\Windows.winmd</PackagePath>
+      <Modified>2019-03-18T09:33:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\Documents\hololens\test_15_planterium\APP\test_15_planterium\bin\x86\Release\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2020-03-16T08:29:04.764</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\Documents\hololens\test_15_planterium\APP\test_15_planterium\UnityEngine.dll">
+      <PackagePath>UnityEngine.dll</PackagePath>
+      <Modified>2020-03-16T08:29:16.052</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\Documents\hololens\test_15_planterium\APP\test_15_planterium\UnityEngine.Analytics.dll">
+      <PackagePath>UnityEngine.Analytics.dll</PackagePath>
+      <Modified>2020-03-16T08:29:16.171</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\Documents\hololens\test_15_planterium\APP\test_15_planterium\UnityEngine.UI.dll">
+      <PackagePath>UnityEngine.UI.dll</PackagePath>
+      <Modified>2020-03-16T08:29:16.456</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\Documents\hololens\test_15_planterium\APP\test_15_planterium\UnityEngine.Networking.dll">
+      <PackagePath>UnityEngine.Networking.dll</PackagePath>
+      <Modified>2020-03-16T08:29:16.808</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\Documents\hololens\test_15_planterium\APP\test_15_planterium\Assembly-CSharp.dll">
+      <PackagePath>Assembly-CSharp.dll</PackagePath>
+      <Modified>2020-03-16T08:29:14.892</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\Documents\hololens\test_15_planterium\APP\test_15_planterium\Assembly-CSharp-firstpass.dll">
+      <PackagePath>Assembly-CSharp-firstpass.dll</PackagePath>
+      <Modified>2020-03-16T08:29:15.039</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yueyuan\Documents\hololens\test_15_planterium\APP\test_15_planterium\bin\x86\Release\Core\test_15_planterium.exe">
+      <PackagePath>test_15_planterium.exe</PackagePath>
+      <Modified>2020-03-16T08:29:18.462</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.27323.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\ARM\Microsoft.VCLibs.ARM.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.27323.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\ARM64\Microsoft.VCLibs.ARM64.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.27323.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x64\Microsoft.VCLibs.x64.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.27323.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x86\Microsoft.VCLibs.x86.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.1\">
+      <Name>Microsoft.NET.CoreRuntime.1.1</Name>
+      <Version>1.1.27004.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.1.1, MinVersion = 1.1.27004.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.1\.\AppX\ARM\Microsoft.NET.CoreRuntime.1.1.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.1\">
+      <Name>Microsoft.NET.CoreRuntime.1.1</Name>
+      <Version>1.1.27004.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.1.1, MinVersion = 1.1.27004.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.1\.\AppX\x64\Microsoft.NET.CoreRuntime.1.1.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.1\">
+      <Name>Microsoft.NET.CoreRuntime.1.1</Name>
+      <Version>1.1.27004.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.1.1, MinVersion = 1.1.27004.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.1\.\AppX\x86\Microsoft.NET.CoreRuntime.1.1.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.27323.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\ARM\Microsoft.VCLibs.ARM.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.27323.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\ARM64\Microsoft.VCLibs.ARM64.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.27323.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x64\Microsoft.VCLibs.x64.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.27323.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x86\Microsoft.VCLibs.x86.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

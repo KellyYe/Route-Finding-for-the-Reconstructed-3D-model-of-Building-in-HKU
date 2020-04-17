@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{3AF0FB97-F36C-F181-B782-FC680E403793}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_2;UNITY_5_5;UNITY_5;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_METRO;UNITY_METRO_API;UNITY_WINRT;ENABLE_WINRT_PINVOKE;ENABLE_LAZY_METHOD_CACHING;ENABLE_MOVIES;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_NETWORK;ENABLE_EVENT_QUEUE;UNITY_PLATFORM_THREAD_TO_CORE_MAPPING;ENABLE_SUBSTANCE;PLATFORM_SUPPORTS_ADS_ID;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;CURL_STATICLIB;ENABLE_VR;UNITY_WSA;ENABLE_DOTNET;ENABLE_PROFILER;UNITY_WSA_10_0;UNITY_WINRT_10_0;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:\Program Files\Unity\unity5_5_2f1\Editor\Data\PlaybackEngines\MetroSupport/Tools/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files/Unity/unity5_5_2f1/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\DrawPath.cs" />
+     <Compile Include="Assets\HoloToolkit-SpatialMapping-230\Input\Scripts\BasicCursor.cs" />
+     <Compile Include="Assets\HoloToolkit-SpatialMapping-230\Input\Scripts\GazeManager.cs" />
+     <Compile Include="Assets\HoloToolkit-SpatialMapping-230\Input\Scripts\GestureManager.cs" />
+     <Compile Include="Assets\HoloToolkit-SpatialMapping-230\Input\Scripts\HandsManager.cs" />
+     <Compile Include="Assets\HoloToolkit-SpatialMapping-230\SpatialMapping\Scripts\ObjectSurfaceObserver.cs" />
+     <Compile Include="Assets\HoloToolkit-SpatialMapping-230\SpatialMapping\Scripts\PlaneFinding.cs" />
+     <Compile Include="Assets\HoloToolkit-SpatialMapping-230\SpatialMapping\Scripts\RemoveSurfaceVertices.cs" />
+     <Compile Include="Assets\HoloToolkit-SpatialMapping-230\SpatialMapping\Scripts\SpatialMappingManager.cs" />
+     <Compile Include="Assets\HoloToolkit-SpatialMapping-230\SpatialMapping\Scripts\SpatialMappingObserver.cs" />
+     <Compile Include="Assets\HoloToolkit-SpatialMapping-230\SpatialMapping\Scripts\SpatialMappingSource.cs" />
+     <Compile Include="Assets\HoloToolkit-SpatialMapping-230\SpatialMapping\Scripts\SurfaceMeshesToPlanes.cs" />
+     <Compile Include="Assets\HoloToolkit-SpatialMapping-230\SpatialMapping\Scripts\SurfacePlane.cs" />
+     <Compile Include="Assets\HoloToolkit-SpatialMapping-230\Utilities\Scripts\Singleton.cs" />
+     <Compile Include="Assets\MouseLookTest.cs" />
+     <Compile Include="Assets\MoveTo.cs" />
+     <Compile Include="Assets\Scripts\Interactible.cs" />
+     <Compile Include="Assets\Scripts\InteractibleManager.cs" />
+     <Compile Include="Assets\Scripts\Placeable.cs" />
+     <Compile Include="Assets\Scripts\PlaySpaceManager.cs" />
+     <Compile Include="Assets\Scripts\SolarSystem\PlanetOcclusion.cs" />
+     <Compile Include="Assets\Scripts\SolarSystem\PlanetOrbit.cs" />
+     <Compile Include="Assets\Scripts\SolarSystem\RotateAsteroids.cs" />
+     <Compile Include="Assets\Scripts\SolarSystem\SunScript.cs" />
+     <Compile Include="Assets\Scripts\SpaceCollectionManager.cs" />
+     <Compile Include="Assets\opt.cs" />
+     <None Include="Assets\Shaders\OccusionRim.shader" />
+     <None Include="Assets\Shaders\OcclusionGrid.shader" />
+     <None Include="Assets\Holograms\Support\Projector\Shaders\default_shader_source\DefaultResourcesExtra\Particle Add.shader" />
+     <None Include="Assets\Shaders\BlueLinesOnWalls.shader" />
+     <None Include="Assets\HoloToolkit-SpatialMapping-230\Utilities\Shaders\StandardFast.shader" />
+     <None Include="Assets\HoloToolkit-SpatialMapping-230\SpatialMapping\Shaders\Wireframe.shader" />
+     <None Include="Assets\HoloToolkit-SpatialMapping-230\Input\Models\Cursor\UI-Default.shader" />
+     <None Include="Assets\HoloToolkit-SpatialMapping-230\SpatialMapping\Shaders\Occlusion.shader" />
+     <None Include="Assets\Holograms\Support\Projector\Shaders\default_shader_source\DefaultResourcesExtra\Normal-VertexLit.shader" />
+     <None Include="Assets\Holograms\Support\Projector\Shaders\default_shader_source\DefaultResourcesExtra\Standard.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/unity5_5_2f1/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity/unity5_5_2f1/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PlaymodeTestsRunner">
+ <HintPath>C:/Program Files/Unity/unity5_5_2f1/Editor/Data/UnityExtensions/Unity/PlaymodeTestsRunner/UnityEngine.PlaymodeTestsRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/Program Files/Unity/unity5_5_2f1/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>C:/Program Files/Unity/unity5_5_2f1/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VR">
+ <HintPath>C:/Program Files/Unity/unity5_5_2f1/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
+ <Reference Include="Mono.Cecil">
+ <HintPath>C:/Program Files/Unity/unity5_5_2f1/Editor/Data/Managed/Mono.Cecil.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

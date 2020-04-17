@@ -1,0 +1,4 @@
+C:\Users\Yueyuan\Documents\hololens\test_15_planterium\APP\GeneratedProjects\UWP\Assembly-CSharp\Assembly-CSharp.csproj;x86
+C:\Users\Yueyuan\Documents\hololens\test_15_planterium\APP\GeneratedProjects\UWP\Assembly-CSharp-firstpass\Assembly-CSharp-firstpass.csproj;x86
+C:\Users\Yueyuan\Documents\hololens\test_15_planterium\APP\GeneratedProjects\UWP\Assembly-CSharp-firstpass\Assembly-CSharp-firstpass.csproj;x86
+C:\Users\Yueyuan\Documents\hololens\test_15_planterium\APP\test_15_planterium\test_15_planterium.csproj;x86
