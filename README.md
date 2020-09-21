@@ -2,7 +2,6 @@
 3D Reconstruction, Walkable Area, Path Finding, SLAM. 
 
 3D Reconstruction: KinectFusion, BundleFusion, Dot3D, 
-
 (Downsampling, Simplification: Quadric-mesh-simplification, Merge: ICP, Export to mesh+texture)
 
 Localization：VINS-Mobile(based on ORB-SLAM), OpenVSLAM
@@ -11,7 +10,7 @@ Walkable area & Path finding: Navmesh, A*
 
 Web-based: webGL
 
-
+![showroute](img/webGL_version.gif)
 
 The reconModel0 is made by BundleFusion, dataset from its official website.
 ![showroute](img/show_route.PNG)
