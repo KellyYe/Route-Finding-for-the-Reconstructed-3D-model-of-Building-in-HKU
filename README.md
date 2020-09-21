@@ -2,6 +2,7 @@
 3D Reconstruction, Walkable Area, Path Finding, SLAM. 
 
 3D Reconstruction: KinectFusion, BundleFusion, Dot3D, 
+
 (Downsampling, Simplification: Quadric-mesh-simplification, Merge: ICP, Export to mesh+texture)
 
 Localization：VINS-Mobile(based on ORB-SLAM), OpenVSLAM
