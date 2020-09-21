@@ -10,7 +10,9 @@ Walkable area & Path finding: Navmesh, A*
 
 Web-based: webGL
 
-![showroute](img/webGL_version.gif)
+![showwebGL](img/webGL_version.gif)
+![showModel](img/wholeModel.png)
+![showPart](img/partModel.png)
 
 The reconModel0 is made by BundleFusion, dataset from its official website.
 ![showroute](img/show_route.PNG)
